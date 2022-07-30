@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        li{list-style: none;}
+        .title{text-align: center;}
+        .menu1{background-color: #fcc232;width: 400px;margin: 0 auto 50px auto;border-top: 3px solid black;border-bottom: 3px solid black;}
+        .menu1>li{padding: 15px 0 15px 35px;border-bottom: 1px solid black;background: url(image/list2.png) no-repeat left 10px center}
+        .menu1>li.last{border-bottom: none;}
+        .menu2{background: #eea61f;width: 400px;border-top: 3px solid black;border-bottom: 3px solid black;margin: auto;}
+        .menu2>li{height: 50px;border-bottom: 1px solid black;background: url(image/list_bg.gif) no-repeat;line-height: 50px;padding-left: 50px;}
+        .menu2>li.second{background-position: left -50px;}
+        .menu2>li.last{border-bottom: none;background-position: left -100px;}
+        .menu3{background-color: #980606;width: 400px;margin: 50px auto;border-top: 3px solid black;border-bottom: 3px solid black;}
+        .menu3>li{color:white;border-bottom: 1px solid black;background: url(image/li_bull.gif);background-repeat: no-repeat;padding: 15px 0 15px 35px;background-position: 15px;}
+        .menu3>li.last{border-bottom: none;}
+
+    </style>
+</head>
+
+<body>
+    <h1 class="title">목록태그 다루기</h1>
+    <ul class="menu1">
+        <li>menu1</li>
+        <li>menu2</li>
+        <li>menu3</li>
+        <li>menu4</li>
+        <li class="last">menu5</li>
+    </ul>
+    <ol class="menu2">
+        <li>menu1</li>
+        <li class="second">menu2</li>
+        <li class="last">menu3</li>
+    </ol>
+    <ul class="menu3">
+        <li>menu1</li>
+        <li>menu2</li>
+        <li>menu3</li>
+        <li>menu4</li>
+        <li class="last">menu5</li>
+    </ul>
+</body>
+</html>
